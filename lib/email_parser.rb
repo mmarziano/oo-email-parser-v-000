@@ -16,7 +16,7 @@ def initialize(emails)
 end
 
 def parse
-  @parser.uniq.split(/, | /)
+  @parser.split(/, | /).uniq
 end
 
   
